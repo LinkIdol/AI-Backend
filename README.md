@@ -1,4 +1,3 @@
-# UnderWorldOnline
-A card net game
+# Do you want a waifu?
 
-Where to play? http://www.h5indiegame.com/run.php?id=38
+Get your unique waifu in crypto world! Mew~

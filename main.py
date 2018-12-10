@@ -3,6 +3,7 @@
 from flask import Flask
 from flask import render_template, jsonify, Response
 from PIL import Image
+from gan_sampler import Generate
 
 app = Flask(__name__)
 
@@ -14,6 +15,7 @@ def cut():
 
 @app.route("/")
 def index():
+    Generate()
     cut()
     with open('target.jpg', 'rb') as f:
         image = f.read()
